@@ -1,0 +1,130 @@
+
+
+.path-card{
+    position: relative;
+  margin: 0;
+  
+   padding-left: 3.4%;
+   padding-right: 3.4%;
+        height: 100%;
+    width: 100%;
+    min-height: 200px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 200px;
+ float: left;
+    display: block;
+    color: rgb(43, 44, 44);
+size: 4px;
+background-color: #D1B88F;
+background-color: linear-gradient(196deg, rgba(228,230,234,1) 58%, rgba(255,255,255,1) 85%);
+/*text-shadow: 3px 3px 10px rgb(0, 0, 0);*/
+
+border-radius: 15px;
+padding-top: 40px;
+padding-bottom: 2%;
+    box-shadow: 1px 1px 20px rgb(40, 40, 41);
+
+
+}
+
+.arrow{
+    text-shadow: 0px 0px 20px rgb(91, 116, 238);
+color: rgb(220, 238, 238);
+    size: 10px;
+   visibility: hidden;
+   position: absolute; 
+   bottom: 3.5%;
+right: 6.6%;
+margin: 0;
+
+
+}
+
+.path-card:hover{
+color: aliceblue;
+  background-color: #5D4A44;
+    /*box-shadow: 10px 10px 50px rgb(51, 106, 138) inset;*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+ /*text-shadow: -3px -3px 10px rgb(0, 0, 0);*/
+padding-top: 4%;
+padding-bottom:4%;
+min-height: 300px;
+  
+
+
+}
+.path-card:hover .arrow{
+    visibility: visible;
+  display: block;
+
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.hide-desc{
+  margin-top: 15px;
+    width: 100%;
+   display: none;
+   text-align: left;
+   
+   
+}
+.path-card:hover .hide-desc{
+   display: block;
+   -moz-transition: all 800ms ease;
+   -ms-transition: all 800ms ease;
+   -o-transition: all 800ms ease;
+   transition: all 300ms ease;
+    
+}
+#img-shadow{
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+.setTitle{
+display: inline-block;
+  margin-left: 20px;
+}
+
+
+
+
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#min{
+
+
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 100%;
+
+}

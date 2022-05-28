@@ -1,0 +1,28 @@
+
+  .myHome{
+  
+    height: 100%;
+    width: 100%;
+  }
+
+
+  .companiesMax{
+
+min-height: 320px;
+
+  }
+
+  .setHeight{
+    margin-top: 15%;
+    
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .setHeight{
+      
+      margin-top: 100px;
+      
+    }
+  }

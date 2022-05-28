@@ -1,0 +1,95 @@
+.setMargin{
+
+margin-top: 8%;
+width: 80%;
+height: auto;
+padding-top: 40px ;
+background-image: linear-gradient(to right top, #5d4a44, #7b6357, #997d69, #b69a7c, #d1b88f);
+border-radius: 20px;
+
+
+}
+
+.logo{
+
+max-width: 200px;
+display: block;
+max-height: 200px;
+margin-right: 40px;
+
+}
+
+.header1{
+    font-size: 2.5rem;
+    display: table-cell;
+    vertical-align: middle;
+    color:rgb(255, 255, 255);
+  
+}
+.img-desc{
+    padding-right: 10%;
+
+}
+.header-container{
+    display: table;
+  
+
+}
+
+
+.passage{
+    margin-top: 40px;
+    padding-right: 10%;
+    color:rgb(245, 245, 245);
+
+    font-size: 1.5rem;
+
+
+}
+
+.myDesc{
+
+    padding-left: 10%;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .setMargin{
+   
+padding-top: 40px ;
+background-image: linear-gradient(to right top, #5d4a44, #7b6357, #997d69, #b69a7c, #d1b88f);
+border-radius: 20px;
+
+margin-top: 20%;
+
+
+    }
+
+    .logo{
+
+
+        max-width: 100px;
+        max-height: 100px;
+      margin-right: 0;
+        
+
+    }
+
+    .passage{
+        margin-top: 40px;
+     
+    
+        font-size: 1rem;
+    
+    
+    }
+
+
+.header1{
+    font-size: 1.5rem;
+    display: table-cell;
+    vertical-align: middle;
+    color:rgb(255, 255, 255);
+ 
+}
+  }
